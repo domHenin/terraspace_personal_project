@@ -1,6 +1,8 @@
 data "aws_ami" "lookup" {
   most_recent = true
-  owners = var.server_ami
+  owners = ["679593333241"]
+//  owners = var.server_ami
+
 
   filter {
     name = var.name

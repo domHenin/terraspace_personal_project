@@ -1,7 +1,7 @@
-variable "server_ami" {
-  description = "instance owner"
-  type        = string
-}
+//variable "server_ami" {
+//  description = "instance owner"
+//  type        = string
+//}
 
 variable "name" {
   description = "name used in filter"

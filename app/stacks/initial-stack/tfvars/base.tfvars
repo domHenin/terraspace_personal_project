@@ -1,4 +1,4 @@
-server_ami = "ami-679593333241"
+//server_ami = "ami-679593333241"
 
 name = "name"
 
