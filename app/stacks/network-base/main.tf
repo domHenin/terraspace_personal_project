@@ -11,6 +11,6 @@ resource "aws_subnet" "subnet" {
   vpc_id = aws_vpc.vpc.id
 }
 
-resource "aws_network_interface" "test" {
-  subnet_id = aws_subnet.subnet.id
-}
+//resource "aws_network_interface" "test" {
+//  subnet_id = aws_subnet.subnet.id
+//}

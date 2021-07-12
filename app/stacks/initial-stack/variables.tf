@@ -1,4 +1,4 @@
-variable "owner" {
+variable "server_ami" {
   description = "instance owner"
   type        = string
 }
@@ -18,7 +18,7 @@ variable "int_tag" {
   type        = string
 }
 
-variable "subnet" {
+variable "subnet_id" {
   description = "subnet for instance"
   type = string
 }
